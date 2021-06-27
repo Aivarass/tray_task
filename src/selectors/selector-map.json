@@ -1,0 +1,34 @@
+{
+    "basePage": {
+        "logo": ".app_logo"
+    },
+    "login": {
+        "usernameLocator": "#user-name",
+        "passwordLocator": "#password",
+        "loginButtonLocator": "#login-button",
+        "loginContainer": "#login_button_container"
+    },
+    "inventory": {
+        "selectContainer": ".product_sort_container",
+        "shoppingCart": "a.shopping_cart_link",
+        "inventoryItem": ".inventory_item",
+        "inventoryContainer": "#inventory_container",
+        "menuButtonContainer": "#menu_button_container"
+    },
+    "inventoryItem": {
+        "title": ".inventory_item_name",
+        "price": ".inventory_item_price",
+        "addToCartButton": ".btn_inventory"
+    },
+    "cart":{
+        "cartItem": ".cart_item",
+        "cartList": ".cart_list",
+        "checkoutButton": "#checkout",
+        "continueShopping": "#continue-shopping"
+    },
+    "cartItem": {
+        "title": ".inventory_item_name",
+        "price": ".inventory_item_price",
+        "removeButton": ".cart_button"
+    }
+}
